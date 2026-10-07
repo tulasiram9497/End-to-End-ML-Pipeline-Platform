@@ -1,0 +1,18 @@
+project:
+  name: "AutoML Forge"
+  version: "0.1.0"
+  description: "End-to-end AutoML platform"
+
+environment:
+  type: "development"
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+paths:
+  data_dir: "data"
+  models_dir: "models"
+  reports_dir: "reports"
+
+random_seed: 42

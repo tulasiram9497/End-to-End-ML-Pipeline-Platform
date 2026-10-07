@@ -1,0 +1,13 @@
+problem:
+  type: "regression"
+
+tuning:
+  enabled: true
+  method: "randomized"
+  n_iter: 20
+  cv: 5
+
+training:
+  test_size: 0.2
+  validation_size: 0.2
+  stratify: false
